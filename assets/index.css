@@ -1,1 +1,16 @@
 /* --END-- */
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: decimal-round(-webkit-calc(strip-unit(28px) / strip-unit(20px)), 2);
+  line-height: decimal-round(-moz-calc(strip-unit(28px) / strip-unit(20px)), 2);
+  line-height: decimal-round(calc(strip-unit(28px) / strip-unit(20px)), 2);
+  letter-spacing: decimal-round(-webkit-calc(strip-unit(-webkit-calc(strip-unit(28px) / strip-unit(20px))) / strip-unit(20px)), 2)em;
+  letter-spacing: decimal-round(-moz-calc(strip-unit(-moz-calc(strip-unit(28px) / strip-unit(20px))) / strip-unit(20px)), 2)em;
+  letter-spacing: decimal-round(calc(strip-unit(calc(strip-unit(28px) / strip-unit(20px))) / strip-unit(20px)), 2)em;
+  text-align: center;
+}
+
+.container {
+  width: 0.02rem(-value, -font-size);
+}
