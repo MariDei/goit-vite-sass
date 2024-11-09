@@ -45,5 +45,11 @@
 // @use "--examples--/lesson-13/list";
 
 // Examples lesson-14
-@use "--examples--/lesson-14/map";
-@use "--examples--/lesson-14/alerts";
+// @use "--examples--/lesson-14/map";
+// @use "--examples--/lesson-14/alerts";
+
+@use "utils";
+
+:root {
+  font-family: sans-serif;
+}
